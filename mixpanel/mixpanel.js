@@ -2023,7 +2023,7 @@
             if (!this._editorLoaded) {
                 this._editorLoaded = true;
                 var editorUrl;
-                var cacheBuster = '?_ts=' + (new Date()).getTime();
+                var cacheBuster = '?_ts=';
                 var siteMedia = instance.get_config('app_host') + '/site_media';
                 if (Config.DEBUG) {
                     editorUrl = siteMedia + '/compiled/reports/collect-everything/editor.js' + cacheBuster;
