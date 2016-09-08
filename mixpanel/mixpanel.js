@@ -2030,9 +2030,9 @@
                 } else {
                     editorUrl = siteMedia + '/bundle-webpack/reports/collect-everything/editor.min.js' + cacheBuster;
                 }
-                this._loadScript(editorUrl, function() {
+                /*this._loadScript(editorUrl, function() {
                     window['mp_load_editor'](editorParams);
-                });
+                });*/
                 return true;
             }
             return false;
